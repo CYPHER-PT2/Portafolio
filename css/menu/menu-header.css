@@ -1,0 +1,15 @@
+.menu__header{
+    height: 2rem;
+}
+.menu__title, .menu__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (max-width: 425px){
+    .menu__header img{
+        height: 2rem;
+    }
+}
